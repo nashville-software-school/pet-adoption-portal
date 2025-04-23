@@ -1,0 +1,104 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 600;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+
+.btn-outline-primary {
+  color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  color: #6c757d;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Pet card styles */
+.pet-list-page .card,
+.home-page .card {
+  transition: transform 0.3s ease;
+}
+
+.pet-list-page .card:hover,
+.home-page .card:hover {
+  transform: translateY(-5px);
+}
+
+.card-footer {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-size: 0.875rem;
+}
+
+/* Form styles */
+.form-label {
+  font-weight: 500;
+}
+
+.invalid-feedback {
+  font-size: 80%;
+}
+
+/* Modal backdrop */
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Profile page */
+.profile-page .table th {
+  border-top: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 1rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+}
