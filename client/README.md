@@ -1,69 +1,40 @@
-# Pet Adoption Portal - Client
-
-This is the frontend React application for the Pet Adoption Portal. It provides a user interface for browsing, adding, and managing pets for adoption.
-
-## Features
-
-- User authentication (register, login, logout)
-- Browse available pets
-- Filter and search for pets
-- View detailed pet information
-- Add, edit, and delete pets (for authenticated users)
-- User profile management
-
-## Technologies Used
-
-- React
-- React Router for navigation
-- Axios for API requests
-- Bootstrap for styling
-- Vite as the build tool
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
 
-### Prerequisites
+First, run the development server:
 
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Install dependencies:
-   ```
-   npm install
-   ```
-
-2. Start the development server:
-   ```
-   npm run dev
-   ```
-
-The application will be available at http://localhost:5173/
-
-## Project Structure
-
-- `src/components/` - Reusable UI components
-- `src/pages/` - Page components for different routes
-- `src/context/` - React context for state management
-- `src/services/` - API service functions
-
-## Available Scripts
-
-- `npm run dev` - Start the development server
-- `npm run build` - Build the app for production
-- `npm run lint` - Run ESLint to check for code issues
-- `npm run preview` - Preview the production build locally
-
-## API Integration
-
-This frontend application communicates with the Django REST API. Make sure the API server is running at http://localhost:8000/ for the application to function properly.
-
-## Deployment
-
-To build the application for production:
-
-```
-npm run build
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-This will create a `dist` directory with the compiled assets that can be deployed to any static hosting service.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
